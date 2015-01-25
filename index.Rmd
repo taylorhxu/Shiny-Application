@@ -10,19 +10,10 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
+## Introduction
 
-## Read-And-Delete
-
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
-
---- .class #id 
-
-## Slide 2
-
-This Tool is for users who are familiar with Yahoo finance and the stock market.
-By simply entering the stock symbol, a visual plot of the stock will be shown.
+> This Tool is for users who are familiar with Yahoo finance and the stock market.
+> By simply entering the stock symbol, a visual plot of the stock will be shown.
 
 ---
 
@@ -35,6 +26,7 @@ Also, the Commodity Channel Index is shown.
 
 ### Slide 4
 
+'''{r}
 > # The same result could be accomplished a 
 > # bit more interactively: 
 > # 
@@ -42,11 +34,11 @@ Also, the Commodity Channel Index is shown.
 > addVo() #add volume 
 > addBBands() #add Bollinger Bands 
 > addCCI() #add Commodity Channel Index
+'''
 
 ---
 
-## Slide 5
 
-Thank you!
+> Thank you!
 
 
