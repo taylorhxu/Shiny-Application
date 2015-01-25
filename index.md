@@ -20,18 +20,45 @@ knit        : slidify::knit2slides
 ## Slide 3
 
 By changing the date range, a detailed infographic will be shown.
-Also, the Commodity Channel Index is shown.
+
+[](/images/date.png)
 
 ---
 
 ### Extra info on graph
 
-'''{r}
+
+```r
 chartSeries(GS, theme="white") #draw the chart 
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "chartSeries"
+```
+
+```r
 addVo() #add volume 
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "addVo"
+```
+
+```r
 addBBands() #add Bollinger Bands 
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "addBBands"
+```
+
+```r
 addCCI() #add Commodity Channel Index
-'''
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "addCCI"
+```
 
 ---
 
