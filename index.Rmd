@@ -17,11 +17,10 @@ knit        : slidify::knit2slides
 
 ---
 
-## Slide 3
+## Date range
 
 By changing the date range, a detailed infographic will be shown.
 
-[](/images/date.png)
 
 ---
 
