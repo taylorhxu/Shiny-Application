@@ -24,16 +24,13 @@ Also, the Commodity Channel Index is shown.
 
 ---
 
-### Slide 4
+### Extra info on graph
 
 '''{r}
-> # The same result could be accomplished a 
-> # bit more interactively: 
-> # 
-> chartSeries(GS, theme="white") #draw the chart 
-> addVo() #add volume 
-> addBBands() #add Bollinger Bands 
-> addCCI() #add Commodity Channel Index
+chartSeries(GS, theme="white") #draw the chart 
+addVo() #add volume 
+addBBands() #add Bollinger Bands 
+addCCI() #add Commodity Channel Index
 '''
 
 ---
