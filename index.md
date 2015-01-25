@@ -20,7 +20,7 @@ knit        : slidify::knit2slides
 ## Date range
 
 By changing the date range, a detailed infographic will be shown.
-
+![](https://github.com/taylorhxu/Shiny-Application/blob/master/date.png)
 
 ---
 
