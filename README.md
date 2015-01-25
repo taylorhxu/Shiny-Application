@@ -3,6 +3,7 @@
 This repo contains the applicaiton I have created using [Shiny. by Rstudio](shiny.rstudio.com) as a part of my Coursera study - Developing Data Products.
 
 The app can be found [here](https://taylorhxu.shinyapps.io/stock/).
+The short presentation can be found [here](http://taylorhxu.com/Shiny-Application/#1)
 
 # Coursera assignment info:
 
